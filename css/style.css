@@ -355,6 +355,12 @@ button {
 
 /* наша команда */
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .color-com {
   background: #f5f4fa;
 }
@@ -403,13 +409,39 @@ button {
   text-align: center;
 }
 
+/* .svg-list {
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 44px;
+} */
+
 .button-icon {
-  color: var(--color-icon);
+  /* display: block; */
+  padding: 0;
+  border: 0;
+  width: 44px;
+  height: 44px;
+  color: var(--secondary-text-color);
   background-color: var(--white);
+  border-radius: 50%;
 }
 .button-icon:hover {
-  color: var(--white);
   background-color: var(--accent);
+}
+
+.svg-icon {
+  --color1: #afb1b8;
+  /* display: block; */
+  width: 12px;
+  height: 12px;
+}
+
+.svg-icon:hover {
+  --color1: white;
 }
 
 /* clients */
