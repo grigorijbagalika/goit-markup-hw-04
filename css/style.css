@@ -160,6 +160,30 @@ button {
   color: var(--accent);
 }
 
+.icon-envelope::before {
+  display: inline-flex;
+  content: '';
+  /* outline: 1px solid tomato; */
+  width: 16px;
+  height: 11px;
+  background-image: url(../image/envelope-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+}
+
+.icon-vector::before {
+  display: inline-flex;
+  content: '';
+  /* outline: 1px solid tomato; */
+  width: 10px;
+  height: 15px;
+  background-image: url(../image/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+}
+
 /* main */
 
 .overlay {
@@ -340,6 +364,9 @@ button {
 }
 
 .com-mar {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
   margin-right: 30px;
 }
 .com-mar:last-child {
@@ -348,6 +375,8 @@ button {
 
 .social {
   display: flex;
+  width: 206px;
+  height: 44px;
 }
 
 .image-com {
