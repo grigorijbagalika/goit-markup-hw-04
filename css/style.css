@@ -499,9 +499,29 @@ button {
   display: flex;
 }
 
+.footer-list {
+  display: flex;
+  margin-right: 10px;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-list:hover {
+  background-color: var(--accent);
+}
+
+.footer-list:last-child {
+  margin-right: 0px;
+}
+
 .footer-icon {
   color: var(--white);
-  background-color: var(--color-footer-icon);
+  /* background-color: var(--color-footer-icon); */
 }
 .footer-icon:hover {
   background-color: var(--accent);
