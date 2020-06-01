@@ -409,36 +409,48 @@ button {
   text-align: center;
 }
 
+.button-list {
+  display: flex;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-list:hover {
+  background-color: var(--accent);
+}
+
 .svg-list {
   display: flex;
   padding: 0;
   margin-left: 32px;
   margin-bottom: 24px;
-  outline: 1px solid black;
   list-style: none;
   justify-content: space-around;
   align-items: center;
 }
 
-.button-icon {
+/* .button-icon {
   padding: 0;
   border: none;
   width: 44px;
   height: 44px;
   color: #2a2a2a;
-  border-radius: 100px;
+  border-radius: 100%;
   background-color: teal;
-}
+} */
 
-.button-icon:hover {
+/* .button-icon:hover {
   background-color: var(--accent);
-}
+} */
 
 .svg-icon {
   --color1: #afb1b8;
-  width: 12px;
-  height: 12px;
-  /* background-size: unset; */
+  width: 20px;
+  height: 20px;
 }
 
 .svg-icon:hover {
