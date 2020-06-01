@@ -433,15 +433,11 @@ button {
   align-items: center;
 }
 
-/* .button-icon {
+.button-icon {
   padding: 0;
   border: none;
-  width: 44px;
-  height: 44px;
-  color: #2a2a2a;
   border-radius: 100%;
-  background-color: teal;
-} */
+}
 
 /* .button-icon:hover {
   background-color: var(--accent);
