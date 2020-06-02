@@ -49,7 +49,7 @@ button {
 }
 
 .image {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* .up-feat {
@@ -160,29 +160,52 @@ button {
   color: var(--accent);
 }
 
-.icon-envelope::before {
-  display: inline-flex;
+.icon-envelope {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* max-height: 20px; */
+}
+
+.icon-envelope:hover {
+  --color4: #2196f3;
+}
+
+.icon-vector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* max-height: 20px; */
+}
+
+.icon-vector:hover {
+  --color4: #2196f3;
+}
+
+/* .icon-envelope::before {
+  display: flex;
   content: '';
-  /* outline: 1px solid tomato; */
   width: 16px;
   height: 11px;
-  background-image: url(../image/envelope-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
   justify-content: center;
-}
+} */
 
-.icon-vector::before {
+/* .icon-vector::before {
   display: inline-flex;
   content: '';
-  /* outline: 1px solid tomato; */
   width: 10px;
   height: 15px;
   background-image: url(../image/Vector.svg);
   background-repeat: no-repeat;
   background-size: contain;
   justify-content: center;
-}
+} */
 
 /* main */
 
@@ -240,7 +263,7 @@ button {
   border-radius: 4px;
 }
 
-.icon-antena::before {
+/* .icon-antena::before {
   background-image: url(../image/antena.svg);
   background-size: 65px, 70px;
   margin-bottom: 30px;
@@ -261,7 +284,7 @@ button {
   background-image: url(../image/man.svg);
   background-size: 70px, 70px;
   margin-bottom: 30px;
-}
+} */
 .image-feature {
   margin-bottom: 30px;
 }
