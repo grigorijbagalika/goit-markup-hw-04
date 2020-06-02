@@ -48,9 +48,9 @@ button {
   list-style: none;
 }
 
-.image {
+/* .image {
   margin-right: 10px;
-}
+} */
 
 /* .up-feat {
   padding-top: 94px;
@@ -143,6 +143,8 @@ button {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .auth-nav .item + .item {
@@ -173,6 +175,13 @@ button {
   --color2: #2196f3;
 }
 
+.svg-envelope {
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 25px;
+}
+
 .icon-vector {
   display: flex;
   align-items: center;
@@ -186,26 +195,12 @@ button {
   --color4: #2196f3;
 }
 
-/* .icon-envelope::before {
-  display: flex;
-  content: '';
-  width: 16px;
-  height: 11px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  justify-content: center;
-} */
-
-/* .icon-vector::before {
-  display: inline-flex;
-  content: '';
-  width: 10px;
-  height: 15px;
-  background-image: url(../image/Vector.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  justify-content: center;
-} */
+.svg-vector {
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 25px;
+}
 
 /* main */
 
