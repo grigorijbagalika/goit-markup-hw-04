@@ -239,47 +239,17 @@ button {
 
 /* преимущества */
 
-.feature-item {
-  margin-right: 30px;
-}
-
-.feature-item :last-child {
-  margin-right: 0;
-}
-
-.feature-item::before {
-  display: block;
-  content: '';
+.feature-icon {
+  display: flex;
+  margin-bottom: 30px;
+  width: 270px;
   height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #f5f4fa;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .icon-antena::before {
-  background-image: url(../image/antena.svg);
-  background-size: 65px, 70px;
-  margin-bottom: 30px;
-}
-
-.icon-watch::before {
-  background-image: url(../image/watch.svg);
-  background-size: 67px, 70px;
-  margin-bottom: 30px;
-}
-
-.icon-comp::before {
-  background-image: url(../image/comp.svg);
-  background-size: 70px, 64px;
-  margin-bottom: 30px;
-}
-.icon-man::before {
-  background-image: url(../image/man.svg);
-  background-size: 70px, 70px;
-  margin-bottom: 30px;
-} */
 .image-feature {
   margin-bottom: 30px;
 }
@@ -292,7 +262,7 @@ button {
 
 .feature-list .item {
   width: 251px;
-  /* background-color: tomato; */
+  margin-right: 30px;
 }
 
 .section {
@@ -468,7 +438,7 @@ button {
 }
 
 .svg-icon:hover {
-  --color1: white;
+  --color3: white;
 }
 
 /* clients */
