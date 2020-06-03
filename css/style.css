@@ -40,6 +40,11 @@ button {
 .link-port {
   display: block;
   text-decoration: none;
+  border-top-left-radius: 1px;
+  border-top-left-radius: 1px;
+  overflow: hidden;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .list {
@@ -626,6 +631,16 @@ button {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+}
+
+.card-image {
+  display: block;
 }
 
 .portfolio-title {
